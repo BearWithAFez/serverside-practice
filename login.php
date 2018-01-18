@@ -52,7 +52,8 @@ if(isset($_POST['moduleAction']) && $_POST['moduleAction'] == 'login') {
     } else {
         $stmt = $db->prepare('SELECT * FROM users WHERE username = ?');
         $stmt->execute(array($username));
-        $user = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
 
         // Check password
         if(password_verify($password, $user['password'])) {
@@ -77,6 +78,6 @@ $tpl = $twig->loadTemplate('login.twig');
 echo $tpl->render(array(
         'formErrors' => $formErrors,
         'username' => $username,
-        'PHP_SELF' =>  $_SERVER['PHP_SELF']
+        'PHP_SELF' =>  $_SERVER['PHP_SELF'],
     )
 );

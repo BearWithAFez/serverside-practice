@@ -3,7 +3,7 @@
 {% block content %}
     <div class="row">
         <div class="col-xxs-10 col-xxs-offset-1 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-            {% if formerrors %}
+            {% if formErrors %}
                 <div class="bs-callout bs-callout-danger">
                     <p>One or more errors were encountered:</p>
                     <ul>
@@ -14,7 +14,7 @@
                     </ul>
                 </div>
             {% endif %}
-            <form action="/add.php" method="post" role="form" enctype="multipart/form-data">
+            <form action="{{ PHP_SELF }}" method="post" role="form" enctype="multipart/form-data">
                 <div class="well">
                     <h2>Add book</h2>
                     <div class="form-group">
@@ -24,21 +24,22 @@
                     </div>
                     <div class="form-group">
                         <label for="title">Title</label>
-                        <input class="form-control" type="text" name="title" id="title" value="" autocomplete="off" placeholder="Title of the book" maxlength="255" />
+                        <input class="form-control" type="text" name="title" id="title" value="{{ title }}" autocomplete="off" placeholder="Title of the book" maxlength="255" />
                     </div>
                     <div class="form-group">
                         <label for="title">Number of pages</label>
-                        <input class="form-control" type="number" name="numpages" id="numpages" value="" autocomplete="off" placeholder="Number of pages" maxlength="4" />
+                        <input class="form-control" type="number" name="numpages" id="numpages" value="{{ numpages }}" autocomplete="off" placeholder="Number of pages" maxlength="4" />
                     </div>
                     <div class="form-group">
                         <label for="topic_id">topic</label>
                         <select name="topic_id" id="topic_id" class="form-control">
-                            <option value="0">Choose &hellip;</option>
-                            <option value="5">DevOps</option>
-                            <option value="2">JavaScript</option>
-                            <option value="3">Node</option>
-                            <option value="1">PHP</option>
-                            <option value="4">Ruby on Rails</option>
+                            {% for topic in topics %}
+                                {% if topic.id == topic_selected %}
+                                <option value="{{ topic.id }}" selected>{{ topic.title }} &hellip;</option>
+                                {% else %}
+                                <option value="{{ topic.id }}">{{ topic.title }} &hellip;</option>
+                                {% endif %}
+                            {% endfor %}
                         </select>
                     </div>
                     <input type="hidden" name="moduleAction" value="add" />

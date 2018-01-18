@@ -19,6 +19,15 @@ $twig = new Twig_Environment($loader);
  */
 $db = getDatabase();
 
+$logged_in = false;
+$username = '';
+// If user has already logged in
+if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
+    $logged_in = true;
+    $username = $_SESSION['username'];
+}
+
+
 /**
  * Page vars
  * -----------------------------------------------------------------
@@ -68,5 +77,7 @@ $tpl = $twig->loadTemplate('index.twig');
 echo $tpl->render(array(
         'books' => $books,
         'topics' => $topics,
+        'logged_in' => $logged_in,
+        'username' => $username
     )
 );

@@ -17,10 +17,10 @@
                 {% endfor %}
             </ul>
 
-            {% if user %}
+            {% if logged_in %}
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="add.php">Add book</a></li>
-                    <li><a href="logout.php">Sign out {{ user.name }}</a></li>
+                    <li><a href="logout.php">Sign out {{ username }}</a></li>
                 </ul>
             {% else %}
                 <ul class="nav navbar-nav navbar-right">
