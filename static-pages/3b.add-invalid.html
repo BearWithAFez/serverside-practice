@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>The Library</title>
+
+	<meta charset="UTF-8" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.xxs.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<!-- header -->
+	<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="index.php">All</a></li>
+										<li><a href="index.php?topic=5">DevOps</a></li>
+										<li><a href="index.php?topic=2">JavaScript</a></li>
+										<li><a href="index.php?topic=3">Node</a></li>
+										<li><a href="index.php?topic=1">PHP</a></li>
+										<li><a href="index.php?topic=4">Ruby on Rails</a></li>
+									</ul>
+				<ul class="nav navbar-nav navbar-right">
+										<li><a href="add.php">Add book</a></li>
+					<li><a href="logout.php">Sign out (bramus)</a></li>
+									</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- content -->
+	<div class="container">
+
+	<div class="row">
+		<div class="col-xxs-10 col-xxs-offset-1 col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+
+			<div class="bs-callout bs-callout-danger">
+				<p>One or more errors were encountered:</p>
+				<ul>
+			<li>Please choose a cover. Only .jpeg, .jpg, .png or .gif allowed</li>
+			<li>Please enter a title</li>
+			<li>Please enter the number of pages</li>
+			<li>Please select a topic</li>
+				</ul>
+			</div>
+
+			<form action="/add.php" method="post" role="form" enctype="multipart/form-data">
+				<div class="well">
+					<h2>Add book</h2>
+					<div class="form-group">
+						<label for="coverphoto">Cover</label>
+						<input class="filestyle" type="file" name="coverphoto" id="coverphoto" value="" autocomplete="off" placeholder="Select coverphoto" data-icon="false" data-classButtonContainerClass="input-group-btn" data-containerClass="input-group" />
+						<p class="help-block">Only .jpg, .png or .gif</p>
+					</div>
+					<div class="form-group">
+						<label for="title">Title</label>
+						<input class="form-control" type="text" name="title" id="title" value="" autocomplete="off" placeholder="Title of the book" maxlength="255" />
+					</div>
+					<div class="form-group">
+						<label for="title">Number of pages</label>
+						<input class="form-control" type="number" name="numpages" id="numpages" value="" autocomplete="off" placeholder="Number of pages" maxlength="4" />
+					</div>
+					<div class="form-group">
+						<label for="topic_id">topic</label>
+						<select name="topic_id" id="topic_id" class="form-control">
+							<option value="0">Choose &hellip;</option>
+														<option value="5">DevOps</option>
+														<option value="2">JavaScript</option>
+														<option value="3">Node</option>
+														<option value="1">PHP</option>
+														<option value="4">Ruby on Rails</option>
+													</select>
+					</div>
+					<input type="hidden" name="moduleAction" value="add" />
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Add book</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	</div>
+
+	<!-- footer -->
+	<footer id="footer">
+		<div class="container">
+			<p>&copy; 2015, <a href="http://www.ikdoeict.be/" title="IkDoeICT.be">IkDoeICT.be</a></p>
+		</div>
+	</footer>
+
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-filestyle.bs3.js"></script>
+
+</body>
+</html>
