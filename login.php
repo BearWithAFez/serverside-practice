@@ -54,7 +54,6 @@ if(isset($_POST['moduleAction']) && $_POST['moduleAction'] == 'login') {
         $stmt->execute(array($username));
         $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-
         // Check password
         if(password_verify($password, $user['password'])) {
             $_SESSION['username'] = $user['username'];

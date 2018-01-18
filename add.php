@@ -102,14 +102,13 @@ if (isset($_POST['moduleAction']) && $_POST['moduleAction'] == 'add') {
                 // Fetch temp file
                 $tmp_name = $_FILES['coverphoto']['tmp_name'];
 
-
+                // If moving the uploaded file succeeded route user to index page
                 if (move_uploaded_file($tmp_name, $basePath . DIRECTORY_SEPARATOR . $file)) {
                     header('location: index.php');
                     exit();
                 } else {
                     $formErrors[] = 'File could not be uploaded';
                 }
-
             } else {
                 $formErrors[] = 'File could not be uploaded';
             }
