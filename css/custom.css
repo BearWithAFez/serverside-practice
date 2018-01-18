@@ -1,0 +1,90 @@
+body {
+	background: #464646;
+}
+
+footer, footer a {
+	color: #eaeaea !important;
+}
+
+footer a {
+	text-decoration: underline;
+}
+
+.well > h2 {
+  margin-top: 0;
+}
+
+/* books */
+#books, .book {
+  margin-bottom: 24px
+}
+
+.book-wrapper:hover {
+  box-shadow: 0 0 10px #000;
+}
+
+.book-cover {
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.modal-body img {
+  border: 1px solid #333;
+}
+
+.book-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* @link http://stackoverflow.com/a/21282059/2076595 */
+.row.no-gutter [class*='col-']:not(:first-child),.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right:0;
+  padding-left:0;
+}
+
+/* @link http://stackoverflow.com/a/19428423/2076595 */
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+/* @link http://getbootstrap.com/docs-assets/css/docs.css */
+.bs-callout {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* Variations */
+.bs-callout-danger {
+  background-color: #fdf7f7;
+  border-color: #eed3d7;
+}
+.bs-callout-danger h4 {
+  color: #b94a48;
+}
+.bs-callout-warning {
+  background-color: #faf8f0;
+  border-color: #faebcc;
+}
+.bs-callout-warning h4 {
+  color: #8a6d3b;
+}
+.bs-callout-info {
+  background-color: #f4f8fa;
+  border-color: #bce8f1;
+}
+.bs-callout-info h4 {
+  color: #34789a;
+}

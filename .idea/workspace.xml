@@ -1,13 +1,350 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a761351-4d68-4982-a332-460461a5d41a" name="Default" comment="" />
+    <list default="true" id="4a761351-4d68-4982-a332-460461a5d41a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/add.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Autoloader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/BaseNodeVisitor.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Cache/Filesystem.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Cache/Null.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/CacheInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Compiler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/CompilerInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Environment.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Error.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Error/Loader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Error/Runtime.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Error/Syntax.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/ExistsLoaderInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/ExpressionParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/Core.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/Debug.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/Escaper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/GlobalsInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/InitRuntimeInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/Optimizer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/Profiler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/Sandbox.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/Staging.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Extension/StringLoader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/ExtensionInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/FactoryRuntimeLoader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/FileExtensionEscapingStrategy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Filter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Filter/Function.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Filter/Method.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Filter/Node.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/FilterCallableInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/FilterInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Function.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Function/Function.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Function/Method.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Function/Node.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/FunctionCallableInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/FunctionInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Lexer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/LexerInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Loader/Array.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Loader/Chain.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Loader/Filesystem.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Loader/String.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/LoaderInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Markup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/AutoEscape.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Block.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/BlockReference.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Body.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/CheckSecurity.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Do.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Embed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Array.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/AssignName.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Add.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/And.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/BitwiseAnd.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/BitwiseOr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/BitwiseXor.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Concat.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Div.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/EndsWith.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Equal.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/FloorDiv.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Greater.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/GreaterEqual.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/In.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Less.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/LessEqual.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Matches.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Mod.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Mul.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/NotEqual.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/NotIn.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Or.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Power.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Range.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/StartsWith.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Binary/Sub.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/BlockReference.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Call.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Conditional.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Constant.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/ExtensionReference.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Filter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Filter/Default.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Function.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/GetAttr.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/MethodCall.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Name.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/NullCoalesce.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Parent.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/TempName.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Test/Constant.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Test/Defined.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Test/Divisibleby.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Test/Even.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Test/Null.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Test/Odd.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Test/Sameas.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Unary.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Unary/Neg.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Unary/Not.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Expression/Unary/Pos.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Flush.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/For.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/ForLoop.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/If.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Import.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Include.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Macro.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Module.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Print.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Sandbox.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/SandboxedPrint.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Set.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/SetTemp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Spaceless.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Node/With.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeCaptureInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeOutputInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeTraverser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeVisitor/Escaper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeVisitor/Optimizer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeVisitor/SafeAnalysis.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeVisitor/Sandbox.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/NodeVisitorInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Parser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/ParserInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Profiler/Dumper/Blackfire.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Profiler/Dumper/Html.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Profiler/Dumper/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Profiler/Node/EnterProfile.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Profiler/Node/LeaveProfile.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Profiler/NodeVisitor/Profiler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Profiler/Profile.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/RuntimeLoaderInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Sandbox/SecurityError.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Sandbox/SecurityNotAllowedFilterError.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Sandbox/SecurityNotAllowedFunctionError.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Sandbox/SecurityNotAllowedMethodError.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Sandbox/SecurityNotAllowedPropertyError.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Sandbox/SecurityNotAllowedTagError.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Sandbox/SecurityPolicy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Sandbox/SecurityPolicyInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/SimpleFilter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/SimpleFunction.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/SimpleTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Source.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/SourceContextLoaderInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Template.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TemplateInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TemplateWrapper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Test/Function.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Test/IntegrationTestCase.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Test/Method.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Test/Node.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Test/NodeTestCase.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TestCallableInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TestInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Token.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/AutoEscape.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Block.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Do.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Embed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Extends.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Filter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Flush.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/For.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/From.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/If.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Import.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Include.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Macro.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Sandbox.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Set.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Spaceless.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/Use.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParser/With.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParserBroker.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParserBrokerInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenParserInterface.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/TokenStream.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Util/DeprecationCollector.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/Twig/Util/TemplateDirIterator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/includes/functions.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/login.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/logout.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/add.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/index.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/layout.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/login.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/partials/footer.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/partials/header.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/partials/index.twig" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="layout.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/partials/header.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+              <folding>
+                <marker date="1516310251500" expanded="true" signature="761:795" ph="SELECT id FR... topics" />
+                <marker date="1516310251500" expanded="true" signature="1022:1311" ph="SELECT books... books" />
+                <marker date="1516310251500" expanded="true" signature="1425:1445" ph="SELECT * FRO... topics" />
+                <marker date="1516310251500" expanded="true" signature="1555:1823" ph="SELECT books... books" />
+                <marker date="1516310251500" expanded="true" signature="1924:1944" ph="SELECT * FRO... topics" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+              <folding>
+                <marker date="1516310840278" expanded="true" signature="996:1041" ph="SELECT usern... users" />
+                <marker date="1516310840278" expanded="true" signature="1410:1448" ph="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logout.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#7#94#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/add.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/partials/footer.twig" />
+        <option value="$PROJECT_DIR$/templates/partials/index.twig" />
+        <option value="$PROJECT_DIR$/templates/add.twig" />
+        <option value="$PROJECT_DIR$/includes/config.php" />
+        <option value="$PROJECT_DIR$/templates/layout.twig" />
+        <option value="$PROJECT_DIR$/templates/index.twig" />
+        <option value="$PROJECT_DIR$/templates/partials/header.twig" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/templates/login.twig" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/logout.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -21,6 +358,9 @@
     <option name="y" value="-18" />
     <option name="width" value="1636" />
     <option name="height" value="1024" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -45,6 +385,35 @@
             <path>
               <item name="serverside-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="serverside-practice" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="serverside-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverside-practice" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static-pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="serverside-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverside-practice" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static-pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="files" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="serverside-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverside-practice" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static-pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="files" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="covers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="serverside-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverside-practice" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="serverside-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverside-practice" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -82,32 +451,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516306219495</updated>
-      <workItem from="1516306220759" duration="14000" />
+      <workItem from="1516306220759" duration="4648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14000" />
+    <option name="totallyTimeSpent" value="4648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="2576" height="1426" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -121,5 +491,186 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/partials/footer.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-pages/1.index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="190" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-pages/3.add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="102" column="4" lean-forward="false" selection-start-line="102" selection-start-column="4" selection-end-line="104" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-pages/3b.add-invalid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="58" column="12" lean-forward="false" selection-start-line="58" selection-start-column="12" selection-end-line="66" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-pages/2.login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="85" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-pages/1b.index-topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="135" column="4" lean-forward="true" selection-start-line="135" selection-start-column="4" selection-end-line="137" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-pages/1b.index-topic-empty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-pages/2b.login-invalid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static-pages/1c.index-loggedin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="47" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="68" lean-forward="false" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/header.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <marker date="1516310251500" expanded="true" signature="761:795" ph="SELECT id FR... topics" />
+            <marker date="1516310251500" expanded="true" signature="1022:1311" ph="SELECT books... books" />
+            <marker date="1516310251500" expanded="true" signature="1425:1445" ph="SELECT * FRO... topics" />
+            <marker date="1516310251500" expanded="true" signature="1555:1823" ph="SELECT books... books" />
+            <marker date="1516310251500" expanded="true" signature="1924:1944" ph="SELECT * FRO... topics" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <marker date="1516310840278" expanded="true" signature="996:1041" ph="SELECT usern... users" />
+            <marker date="1516310840278" expanded="true" signature="1410:1448" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#7#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
