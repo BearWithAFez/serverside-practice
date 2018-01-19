@@ -32,6 +32,7 @@ if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
  * Page vars
  * -----------------------------------------------------------------
  */
+$topic = 0;
 $topic = isset($_GET['topic']) ? $_GET['topic'] : '';
 
 // Check if there is a GET parameter containing topic_id
@@ -48,7 +49,8 @@ if(trim($topic) !== '') {
     $stmt = $db->prepare('SELECT books.id as book_id, topics.id as topic_id, books.title as book_title, numpages, users.username, cover_extension, topics.title as topic_title FROM books
     INNER JOIN topics on books.topic_id = topics.id
     INNER JOIN users on books.user_id = users.id
-    WHERE books.topic_id = ?');
+    WHERE books.topic_id = ?
+    ORDER BY book_title');
     $stmt->execute(array($topic));
     $books = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -58,7 +60,8 @@ if(trim($topic) !== '') {
 } else {
     $stmt = $db->prepare('SELECT books.id as book_id, topics.id as topic_id, books.title as book_title, numpages, users.username, cover_extension, topics.title as topic_title FROM books
         INNER JOIN topics on books.topic_id = topics.id
-        INNER JOIN users on books.user_id = users.id');
+        INNER JOIN users on books.user_id = users.id
+        ORDER BY book_title');
     $stmt->execute();
     $books = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -78,6 +81,7 @@ echo $tpl->render(array(
         'books' => $books,
         'topics' => $topics,
         'logged_in' => $logged_in,
-        'username' => $username
+        'username' => $username,
+        'current_topic' => $topic
     )
 );
